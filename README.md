@@ -1,4 +1,4 @@
-# Navigation-System-C-
+# Navigation-System(C)
 This project implements a simple command-line application in C to find the shortest path between locations on a predefined map using Dijkstra's Algorithm.
 
 # 🚀 Features
