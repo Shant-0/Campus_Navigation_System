@@ -122,11 +122,12 @@ Menu:
 ```
 
 ## 🧱 Project Structure
-```
-campus_nav.c       → Main program with all logic
-README.md          → Documentation
-LICENSE            → MIT License
-```
+
+Campus_navigation.c → Main program with all logic
+
+README.md           → Documentation
+
+LICENSE             → MIT License
 
 ## 🛠 Key Functions
 
