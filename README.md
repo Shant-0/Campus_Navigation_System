@@ -20,7 +20,7 @@ A terminal-based Campus Navigation Assistant that calculates:
 
 Powered by Dijkstra’s Algorithm and an Adjacency List Graph.
 
-# 🚀 Features
+## 🚀 Features
 
 - Shortest Path Navigation 
 
@@ -34,7 +34,7 @@ Powered by Dijkstra’s Algorithm and an Adjacency List Graph.
 
 - Fast menu-driven interface
 
-# 🗺 Campus Nodes
+## 🗺 Campus Nodes
 
 The system includes 17 nodes representing real locations:
 
@@ -68,7 +68,7 @@ The system includes 17 nodes representing real locations:
 
 The graph is fully undirected with proper compass directions.
 
-# 🔧 Technologies
+## 🔧 Technologies
 
 + Language: ANSI C (C99/C11)
 
@@ -92,11 +92,11 @@ Two versions implemented:
 * dijkstra_all()
 → Computes all distances for “closest locations”.
 
-# 📦 Compilation
+## 📦 Compilation
 
 ```gcc -Wall -Wextra -O2 -o campus_nav campus_nav.c```
 
-## ▶ Running 
+▶ Running 
 ```./campus_nav```
 
 You will see:
@@ -121,14 +121,14 @@ Menu:
 4. Exit
 ```
 
-# 🧱 Project Structure
+## 🧱 Project Structure
 ```
 campus_nav.c       → Main program with all logic
 README.md          → Documentation
 LICENSE            → MIT License
 ```
 
-# 🛠 Key Functions
+## 🛠 Key Functions
 
 + build_graph()
 
@@ -150,13 +150,13 @@ LICENSE            → MIT License
 
 + prompt_for_node()
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Md. Junayed Ahmad Shanto**
 
 Campus Navigation System — Pathfinding Project in C
 
-# 🪪 License
+## 🪪 License
 
 Released under the MIT License.
 
