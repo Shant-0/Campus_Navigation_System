@@ -6,19 +6,7 @@
 [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()
 
 
-A terminal-based Campus Navigation Assistant that calculates:
-
-✔ Shortest route between two campus locations 
-
-✔ Step-by-step turn-by-turn directions 
-
-✔ Closest 3 nearby locations 
-
-✔ Distance between all nodes 
-
-✔ Clean, interactive menu interface
-
-Powered by Dijkstra’s Algorithm and an Adjacency List Graph.
+A terminal-based Campus Navigation Assistant that calculates
 
 ## 🚀 Features
 
@@ -34,37 +22,6 @@ Powered by Dijkstra’s Algorithm and an Adjacency List Graph.
 
 - Fast menu-driven interface
 
-## 🗺 Campus Nodes
-
-The system includes 17 nodes representing real locations:
-
-+ PunchGate
-
-+ Joint01 — Joint04
-
-+ Ground
-
-+ WiFi
-
-+ LectureGallery
-
-+ MBA
-
-+ Class107-111
-
-+ Class112-115
-
-+ Pigeonhole
-
-+ PrayerHall
-
-+ Journal
-
-+ Auditorium
-
-+ StairsCafe
-
-+ Gate
 
 The graph is fully undirected with proper compass directions.
 
@@ -80,17 +37,6 @@ The graph is fully undirected with proper compass directions.
 
 + Input Normalization: Whitespace removal + lowercase conversion
 
-# 📐 Algorithm
-
-Uses Dijkstra to compute shortest paths.
-
-Two versions implemented:
-
-* dijkstra()
-→ Optimized to stop early for single-destination routing.
-
-* dijkstra_all()
-→ Computes all distances for “closest locations”.
 
 ## 📦 Compilation
 
@@ -129,27 +75,6 @@ README.md           → Documentation
 
 LICENSE             → MIT License
 
-## 🛠 Key Functions
-
-+ build_graph()
-
-+ add_edge()
-
-+ dijkstra()
-
-+ dijkstra_all()
-
-+ reconstruct_path()
-
-+ direction_chain()
-
-+ print_route()
-
-+ show_closest()
-
-+ normalize_input()
-
-+ prompt_for_node()
 
 ## 🧠 Future Improvements
 
